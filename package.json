@@ -1,0 +1,12 @@
+{
+    "name": "json",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "serve",
+      "build": "echo 'No build step'"
+    },
+    "dependencies": {
+      "serve": "^11.3.2"
+    }
+  }
+  
