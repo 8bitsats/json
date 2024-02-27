@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Formatting Tool</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Form for the meta information -->
+        <div class="form-section">
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="slug" placeholder="Slug">
+            <input type="text" id="supply" placeholder="Supply">
+            <textarea id="description" placeholder="Description"></textarea>
+            <input type="text" id="inscriptionIcon" placeholder="Inscription Icon">
+            <input type="text" id="twitterLink" placeholder="Twitter Link">
+            <input type="text" id="discordLink" placeholder="Discord Link">
+            <input type="text" id="websiteLink" placeholder="Website Link">
+        </div>
+
+        <!-- Inscriptions section -->
+        <div class="inscriptions-section">
+            <label>INSCRIPTIONS</label>
+            <div id="inscriptionsContainer"></div>
+            <button onclick="addInscription()">Add new inscription</button>
+        </div>
+
+        <!-- Buttons for actions -->
+        <div class="actions-section">
+            <button onclick="downloadMetaJSON()">Download Meta JSON</button>
+            <button onclick="downloadInscriptionsJSON()">Download Inscriptions JSON</button>
+            <button onclick="resetForm()">Reset</button>
+        </div>
+
+        <!-- Output sections -->
+        <div class="output-section">
+            <pre id="metaOutput"></pre>
+            <pre id="inscriptionsOutput"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
