@@ -20,8 +20,8 @@
 button {
     padding: 10px 20px;
     margin: 5px;
-    background-color: #007bff;
-    color: white;
+    background-color: #ffd000;
+    color: rgb(255, 253, 253);
     border: none;
     cursor: pointer;
 }
@@ -31,7 +31,53 @@ button:hover {
 }
 
 .output-section pre {
-    background-color: #f5f5f5;
-    border: 1px solid #ddd;
+    background-color: #fcfcfc;
+    border: 1px solid #000000;
     padding: 10px;
 }
+/* This sets the background color of the entire page */
+body {
+    background-color: #1a1a1a; /* A dark background */
+    color: #ffffff; /* White text color */
+    font-family: 'Arial', sans-serif; /* You can change the font-family as well */
+}
+
+/* This changes the background color of each input and textarea field */
+.input-field, textarea {
+    background-color: #fff092; /* Darker field backgrounds */
+    color: #ffffff; /* White text color */
+    border: 1px solid #000000; /* Slightly lighter border color for visibility */
+    /* Rest of your styles */
+}
+
+/* Style for buttons to ensure text is visible on the default blue background */
+button {
+    /* Rest of your styles */
+    color: #000000; /* This ensures text on buttons is white */
+}
+
+/* If you want to change the button background color as well */
+button {
+    background-color: #fff092; /* Change this color to your preferred button color */
+    /* Rest of your styles */
+}
+
+/* Style for button hover effect to maintain visibility */
+button:hover {
+    background-color: #0056b3; /* Darken the button on hover for effect */
+    /* Rest of your styles */
+}
+
+/* This changes the color of the placeholder text inside the inputs */
+::placeholder {
+    color: #000000; /* Lighter text for placeholders for contrast */
+}
+
+/* This changes the background color and text color of the output <pre> area */
+.output-section pre {
+    background-color: #262626; /* Dark background for the output area */
+    color: #dcdcdc; /* Light grey text color for the output */
+    /* Rest of your styles */
+}
+
+/* Add any additional styles you need for other elements */
