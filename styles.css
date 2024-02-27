@@ -1,0 +1,37 @@
+/* Include CSS that matches the mockup, using classes defined in the HTML */
+/* For brevity, this is a simplified example */
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+}
+
+.form-section, .inscriptions-section, .actions-section {
+    margin-bottom: 20px;
+}
+
+.input-field, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.output-section pre {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
